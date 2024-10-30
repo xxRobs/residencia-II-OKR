@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
-import { ObjetivoAnualService } from './objetivo-anual.service';
 import { ObjetivoAnualController } from './objetivo-anual.controller';
+import { ObjetivoAnualService } from './objetivo-anual.service';
 
 @Module({
-  controllers: [ObjetivoAnualController], // Define o controller de ObjetivoAnual
-  providers: [ObjetivoAnualService], // Define o serviço de ObjetivoAnual
+  controllers: [ObjetivoAnualController],
+  providers: [ObjetivoAnualService],
 })
 export class ObjetivoAnualModule {}
